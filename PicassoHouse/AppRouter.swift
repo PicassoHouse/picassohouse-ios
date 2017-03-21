@@ -12,7 +12,7 @@ final class AppRouter {
     
     private var window: UIWindow
     
-    private var navigationController : UINavigationController!
+    private var tabBarController : UITabBarController!
     
     private var appLaunchOptions: [UIApplicationLaunchOptionsKey : Any]?
     
@@ -21,15 +21,50 @@ final class AppRouter {
     
     init(appLaunchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
         self.appLaunchOptions = appLaunchOptions
+        
+        tabBarController = PHTabBarController()
+        
         window = UIWindow(frame: UIScreen.main.bounds)
+        window.backgroundColor = .white
+        window.rootViewController = tabBarController
+        window.makeKeyAndVisible()
+        
+        
     }
     
     
     //MARK: - TabControllers
     
-    lazy var dashboardController : UIViewController = {
-        return DashboardViewController(delegate : nil)
+    lazy var dashboardTabController : UIViewController = {
+        let vc = DashboardViewController()
+        let nav = PHNavigationController(rootViewController: vc)
+        nav.tabBarItem = UITabBarItem(title: "Dashboard", image: #imageLiteral(resourceName: "first"), tag: 1)
+        return nav
     }()
+    
+    lazy var lightsTabController : UIViewController = {
+        let vc = LightsViewController()
+        let nav = PHNavigationController(rootViewController: vc)
+        nav.tabBarItem = UITabBarItem(title: "Luzes", image: #imageLiteral(resourceName: "first"), tag: 1)
+        return nav
+    }()
+    
+    
+    lazy var infoTabController : UIViewController = {
+        let vc = InfoViewController()
+        let nav = PHNavigationController(rootViewController: vc)
+        nav.tabBarItem = UITabBarItem(title: "Infos", image: #imageLiteral(resourceName: "first"), tag: 1)
+        return nav
+    }()
+    
+    
+    lazy var profileTabController : UIViewController = {
+        let vc = ProfileViewController()
+        let nav = PHNavigationController(rootViewController: vc)
+        nav.tabBarItem = UITabBarItem(title: "Perfil", image: #imageLiteral(resourceName: "second"), tag: 1)
+        return nav
+    }()
+    
     
     
     
@@ -37,11 +72,12 @@ final class AppRouter {
     ///////////////////////////////
     
     func start() {
-        navigationController = PHNavigationController(rootViewController: self.dashboardController)
-        
-        window.backgroundColor = .white
-        window.rootViewController = navigationController
-        window.makeKeyAndVisible()
+        tabBarController.viewControllers = [
+            dashboardTabController,
+            lightsTabController,
+            infoTabController,
+            profileTabController
+        ]
     }
     
 }

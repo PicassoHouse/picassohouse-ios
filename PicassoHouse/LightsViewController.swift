@@ -9,7 +9,7 @@
 import UIKit
 
 
-class DashboardViewController: UIViewController {
+class LightsViewController: UIViewController {
     
     
 }
@@ -18,20 +18,20 @@ class DashboardViewController: UIViewController {
 // MARK: - Lifecycler
 // ---------------------------------
 
-extension DashboardViewController {
+extension LightsViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViewConfiguration()
         
-        title = "Dashboard"
+        title = "Luzes"
     }
     
 }
 
 // MARK - ViewConfiguration
 // ---------------------------------
-extension DashboardViewController : ViewConfiguration {
+extension LightsViewController : ViewConfiguration {
     
     func buildViewHierarchy() {
         

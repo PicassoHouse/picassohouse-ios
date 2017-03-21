@@ -9,8 +9,8 @@
 import UIKit
 
 
-class DashboardViewController: UIViewController {
-    
+class ProfileViewController: UIViewController {
+
     
 }
 
@@ -18,20 +18,20 @@ class DashboardViewController: UIViewController {
 // MARK: - Lifecycler
 // ---------------------------------
 
-extension DashboardViewController {
+extension ProfileViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViewConfiguration()
         
-        title = "Dashboard"
+        title = "Perfil"
     }
     
 }
 
 // MARK - ViewConfiguration
 // ---------------------------------
-extension DashboardViewController : ViewConfiguration {
+extension ProfileViewController : ViewConfiguration {
     
     func buildViewHierarchy() {
         

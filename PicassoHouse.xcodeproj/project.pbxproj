@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8B209783BA2BC5FA17CBDC42 /* Pods_PicassoHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4F7A9BBB53C8164EE43DC0 /* Pods_PicassoHouse.framework */; };
 		FF34CE011E80B960007CF4F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE001E80B960007CF4F2 /* AppDelegate.swift */; };
-		FF34CE031E80B960007CF4F2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE021E80B960007CF4F2 /* DashboardViewController.swift */; };
+		FF34CE031E80B960007CF4F2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE021E80B960007CF4F2 /* ProfileViewController.swift */; };
 		FF34CE0A1E80B962007CF4F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF34CE091E80B962007CF4F2 /* Assets.xcassets */; };
 		FF34CE0D1E80B962007CF4F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF34CE0B1E80B962007CF4F2 /* LaunchScreen.storyboard */; };
 		FF34CE1F1E80BA2E007CF4F2 /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE1E1E80BA2E007CF4F2 /* ViewConfiguration.swift */; };
@@ -20,6 +20,10 @@
 		FF34CE301E80CA95007CF4F2 /* Observable+SwiftJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE2F1E80CA95007CF4F2 /* Observable+SwiftJSON.swift */; };
 		FF34CE321E80CB2F007CF4F2 /* PHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE311E80CB2F007CF4F2 /* PHNavigationController.swift */; };
 		FF34CE341E80CBA8007CF4F2 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE331E80CBA8007CF4F2 /* Styles.swift */; };
+		FF34CE361E80D535007CF4F2 /* PHTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE351E80D535007CF4F2 /* PHTabBarController.swift */; };
+		FF34CE391E80D6BA007CF4F2 /* LightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE381E80D6BA007CF4F2 /* LightsViewController.swift */; };
+		FF34CE3C1E80D73D007CF4F2 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE3B1E80D73D007CF4F2 /* InfoViewController.swift */; };
+		FF34CE3F1E80D7E8007CF4F2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE3E1E80D7E8007CF4F2 /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +32,7 @@
 		C4C4042E0E736828F73E86DE /* Pods-PicassoHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicassoHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicassoHouse/Pods-PicassoHouse.release.xcconfig"; sourceTree = "<group>"; };
 		FF34CDFD1E80B95F007CF4F2 /* PicassoHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicassoHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF34CE001E80B960007CF4F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF34CE021E80B960007CF4F2 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		FF34CE021E80B960007CF4F2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FF34CE091E80B962007CF4F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF34CE0C1E80B962007CF4F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF34CE0E1E80B962007CF4F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +44,10 @@
 		FF34CE2F1E80CA95007CF4F2 /* Observable+SwiftJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+SwiftJSON.swift"; sourceTree = "<group>"; };
 		FF34CE311E80CB2F007CF4F2 /* PHNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHNavigationController.swift; sourceTree = "<group>"; };
 		FF34CE331E80CBA8007CF4F2 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		FF34CE351E80D535007CF4F2 /* PHTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHTabBarController.swift; sourceTree = "<group>"; };
+		FF34CE381E80D6BA007CF4F2 /* LightsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsViewController.swift; sourceTree = "<group>"; };
+		FF34CE3B1E80D73D007CF4F2 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		FF34CE3E1E80D7E8007CF4F2 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +112,12 @@
 		FF34CE141E80B981007CF4F2 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				FF34CE2E1E80C2DF007CF4F2 /* Dashboard */,
+				FF34CE3D1E80D789007CF4F2 /* Dashboard */,
+				FF34CE3A1E80D731007CF4F2 /* Infos */,
+				FF34CE371E80D6A7007CF4F2 /* Lights */,
+				FF34CE2E1E80C2DF007CF4F2 /* Profile */,
 				FF34CE311E80CB2F007CF4F2 /* PHNavigationController.swift */,
+				FF34CE351E80D535007CF4F2 /* PHTabBarController.swift */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -181,10 +193,34 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		FF34CE2E1E80C2DF007CF4F2 /* Dashboard */ = {
+		FF34CE2E1E80C2DF007CF4F2 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				FF34CE021E80B960007CF4F2 /* DashboardViewController.swift */,
+				FF34CE021E80B960007CF4F2 /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		FF34CE371E80D6A7007CF4F2 /* Lights */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE381E80D6BA007CF4F2 /* LightsViewController.swift */,
+			);
+			name = Lights;
+			sourceTree = "<group>";
+		};
+		FF34CE3A1E80D731007CF4F2 /* Infos */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE3B1E80D73D007CF4F2 /* InfoViewController.swift */,
+			);
+			name = Infos;
+			sourceTree = "<group>";
+		};
+		FF34CE3D1E80D789007CF4F2 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE3E1E80D7E8007CF4F2 /* DashboardViewController.swift */,
 			);
 			name = Dashboard;
 			sourceTree = "<group>";
@@ -313,15 +349,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF34CE301E80CA95007CF4F2 /* Observable+SwiftJSON.swift in Sources */,
+				FF34CE3F1E80D7E8007CF4F2 /* DashboardViewController.swift in Sources */,
+				FF34CE361E80D535007CF4F2 /* PHTabBarController.swift in Sources */,
 				FF34CE291E80BAF7007CF4F2 /* JSONAble.swift in Sources */,
+				FF34CE391E80D6BA007CF4F2 /* LightsViewController.swift in Sources */,
 				FF34CE321E80CB2F007CF4F2 /* PHNavigationController.swift in Sources */,
 				FF34CE1F1E80BA2E007CF4F2 /* ViewConfiguration.swift in Sources */,
 				FF34CE011E80B960007CF4F2 /* AppDelegate.swift in Sources */,
 				FF34CE341E80CBA8007CF4F2 /* Styles.swift in Sources */,
 				FF34CE2D1E80C18D007CF4F2 /* AppRouter.swift in Sources */,
+				FF34CE3C1E80D73D007CF4F2 /* InfoViewController.swift in Sources */,
 				FF34CE231E80BA76007CF4F2 /* ViewModel.swift in Sources */,
 				FF34CE2B1E80BB18007CF4F2 /* User.swift in Sources */,
-				FF34CE031E80B960007CF4F2 /* DashboardViewController.swift in Sources */,
+				FF34CE031E80B960007CF4F2 /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
