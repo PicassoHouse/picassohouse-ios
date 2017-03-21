@@ -234,6 +234,7 @@
 			buildPhases = (
 				0DDB8CC7EB314644F401D97B /* [CP] Check Pods Manifest.lock */,
 				FF34CDF91E80B959007CF4F2 /* Sources */,
+				FF34CE401E80D93D007CF4F2 /* Swiftlint */,
 				FF34CDFA1E80B959007CF4F2 /* Frameworks */,
 				FF34CDFB1E80B959007CF4F2 /* Resources */,
 				6087F0AF24B987D2A82C32D7 /* [CP] Embed Pods Frameworks */,
@@ -340,6 +341,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicassoHouse/Pods-PicassoHouse-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		FF34CE401E80D93D007CF4F2 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
