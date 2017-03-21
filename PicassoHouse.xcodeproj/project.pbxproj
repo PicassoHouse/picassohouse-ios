@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B209783BA2BC5FA17CBDC42 /* Pods_PicassoHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4F7A9BBB53C8164EE43DC0 /* Pods_PicassoHouse.framework */; };
+		FF34CE011E80B960007CF4F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE001E80B960007CF4F2 /* AppDelegate.swift */; };
+		FF34CE031E80B960007CF4F2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE021E80B960007CF4F2 /* DashboardViewController.swift */; };
+		FF34CE0A1E80B962007CF4F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF34CE091E80B962007CF4F2 /* Assets.xcassets */; };
+		FF34CE0D1E80B962007CF4F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF34CE0B1E80B962007CF4F2 /* LaunchScreen.storyboard */; };
+		FF34CE1F1E80BA2E007CF4F2 /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE1E1E80BA2E007CF4F2 /* ViewConfiguration.swift */; };
+		FF34CE231E80BA76007CF4F2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE221E80BA76007CF4F2 /* ViewModel.swift */; };
+		FF34CE291E80BAF7007CF4F2 /* JSONAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE281E80BAF7007CF4F2 /* JSONAble.swift */; };
+		FF34CE2B1E80BB18007CF4F2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE2A1E80BB18007CF4F2 /* User.swift */; };
+		FF34CE2D1E80C18D007CF4F2 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE2C1E80C18D007CF4F2 /* AppRouter.swift */; };
+		FF34CE301E80CA95007CF4F2 /* Observable+SwiftJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE2F1E80CA95007CF4F2 /* Observable+SwiftJSON.swift */; };
+		FF34CE321E80CB2F007CF4F2 /* PHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE311E80CB2F007CF4F2 /* PHNavigationController.swift */; };
+		FF34CE341E80CBA8007CF4F2 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE331E80CBA8007CF4F2 /* Styles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		217F35B10A0FBB9E53C8BCEC /* Pods-PicassoHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicassoHouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicassoHouse/Pods-PicassoHouse.debug.xcconfig"; sourceTree = "<group>"; };
+		AF4F7A9BBB53C8164EE43DC0 /* Pods_PicassoHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicassoHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C4042E0E736828F73E86DE /* Pods-PicassoHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicassoHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicassoHouse/Pods-PicassoHouse.release.xcconfig"; sourceTree = "<group>"; };
+		FF34CDFD1E80B95F007CF4F2 /* PicassoHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicassoHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF34CE001E80B960007CF4F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF34CE021E80B960007CF4F2 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		FF34CE091E80B962007CF4F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF34CE0C1E80B962007CF4F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF34CE0E1E80B962007CF4F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF34CE1E1E80BA2E007CF4F2 /* ViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+		FF34CE221E80BA76007CF4F2 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FF34CE281E80BAF7007CF4F2 /* JSONAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONAble.swift; sourceTree = "<group>"; };
+		FF34CE2A1E80BB18007CF4F2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FF34CE2C1E80C18D007CF4F2 /* AppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		FF34CE2F1E80CA95007CF4F2 /* Observable+SwiftJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+SwiftJSON.swift"; sourceTree = "<group>"; };
+		FF34CE311E80CB2F007CF4F2 /* PHNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHNavigationController.swift; sourceTree = "<group>"; };
+		FF34CE331E80CBA8007CF4F2 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF34CDFA1E80B959007CF4F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B209783BA2BC5FA17CBDC42 /* Pods_PicassoHouse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156DA51E30333945F83264BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF4F7A9BBB53C8164EE43DC0 /* Pods_PicassoHouse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A67341F7A7000708128A794A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				217F35B10A0FBB9E53C8BCEC /* Pods-PicassoHouse.debug.xcconfig */,
+				C4C4042E0E736828F73E86DE /* Pods-PicassoHouse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF34CDF41E80B959007CF4F2 = {
+			isa = PBXGroup;
+			children = (
+				FF34CDFF1E80B95F007CF4F2 /* PicassoHouse */,
+				FF34CDFE1E80B95F007CF4F2 /* Products */,
+				A67341F7A7000708128A794A /* Pods */,
+				156DA51E30333945F83264BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF34CDFE1E80B95F007CF4F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CDFD1E80B95F007CF4F2 /* PicassoHouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF34CDFF1E80B95F007CF4F2 /* PicassoHouse */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE161E80B9C5007CF4F2 /* Resources */,
+				FF34CE151E80B9B8007CF4F2 /* Core */,
+				FF34CE141E80B981007CF4F2 /* App */,
+				FF34CE001E80B960007CF4F2 /* AppDelegate.swift */,
+				FF34CE2C1E80C18D007CF4F2 /* AppRouter.swift */,
+			);
+			path = PicassoHouse;
+			sourceTree = "<group>";
+		};
+		FF34CE141E80B981007CF4F2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE2E1E80C2DF007CF4F2 /* Dashboard */,
+				FF34CE311E80CB2F007CF4F2 /* PHNavigationController.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		FF34CE151E80B9B8007CF4F2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE1A1E80B9EB007CF4F2 /* Protocols */,
+				FF34CE191E80B9E4007CF4F2 /* Networking */,
+				FF34CE181E80B9DF007CF4F2 /* Models */,
+				FF34CE171E80B9D2007CF4F2 /* Extensions */,
+				FF34CE331E80CBA8007CF4F2 /* Styles.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FF34CE161E80B9C5007CF4F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE091E80B962007CF4F2 /* Assets.xcassets */,
+				FF34CE0B1E80B962007CF4F2 /* LaunchScreen.storyboard */,
+				FF34CE0E1E80B962007CF4F2 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF34CE171E80B9D2007CF4F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE2F1E80CA95007CF4F2 /* Observable+SwiftJSON.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		FF34CE181E80B9DF007CF4F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE2A1E80BB18007CF4F2 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FF34CE191E80B9E4007CF4F2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		FF34CE1A1E80B9EB007CF4F2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE1D1E80BA03007CF4F2 /* Views */,
+				FF34CE1C1E80B9FD007CF4F2 /* ViewModels */,
+				FF34CE281E80BAF7007CF4F2 /* JSONAble.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		FF34CE1C1E80B9FD007CF4F2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE221E80BA76007CF4F2 /* ViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		FF34CE1D1E80BA03007CF4F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE1E1E80BA2E007CF4F2 /* ViewConfiguration.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FF34CE2E1E80C2DF007CF4F2 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				FF34CE021E80B960007CF4F2 /* DashboardViewController.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF34CDFC1E80B959007CF4F2 /* PicassoHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF34CE111E80B962007CF4F2 /* Build configuration list for PBXNativeTarget "PicassoHouse" */;
+			buildPhases = (
+				0DDB8CC7EB314644F401D97B /* [CP] Check Pods Manifest.lock */,
+				FF34CDF91E80B959007CF4F2 /* Sources */,
+				FF34CDFA1E80B959007CF4F2 /* Frameworks */,
+				FF34CDFB1E80B959007CF4F2 /* Resources */,
+				6087F0AF24B987D2A82C32D7 /* [CP] Embed Pods Frameworks */,
+				F1E9FCD86BEA335FDE515BC3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicassoHouse;
+			productName = PicassoHouse;
+			productReference = FF34CDFD1E80B95F007CF4F2 /* PicassoHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF34CDF51E80B959007CF4F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CoderUP;
+				TargetAttributes = {
+					FF34CDFC1E80B959007CF4F2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FJG2DUNYBN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF34CDF81E80B959007CF4F2 /* Build configuration list for PBXProject "PicassoHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF34CDF41E80B959007CF4F2;
+			productRefGroup = FF34CDFE1E80B95F007CF4F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF34CDFC1E80B959007CF4F2 /* PicassoHouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF34CDFB1E80B959007CF4F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF34CE0D1E80B962007CF4F2 /* LaunchScreen.storyboard in Resources */,
+				FF34CE0A1E80B962007CF4F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DDB8CC7EB314644F401D97B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6087F0AF24B987D2A82C32D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicassoHouse/Pods-PicassoHouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E9FCD86BEA335FDE515BC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicassoHouse/Pods-PicassoHouse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF34CDF91E80B959007CF4F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF34CE301E80CA95007CF4F2 /* Observable+SwiftJSON.swift in Sources */,
+				FF34CE291E80BAF7007CF4F2 /* JSONAble.swift in Sources */,
+				FF34CE321E80CB2F007CF4F2 /* PHNavigationController.swift in Sources */,
+				FF34CE1F1E80BA2E007CF4F2 /* ViewConfiguration.swift in Sources */,
+				FF34CE011E80B960007CF4F2 /* AppDelegate.swift in Sources */,
+				FF34CE341E80CBA8007CF4F2 /* Styles.swift in Sources */,
+				FF34CE2D1E80C18D007CF4F2 /* AppRouter.swift in Sources */,
+				FF34CE231E80BA76007CF4F2 /* ViewModel.swift in Sources */,
+				FF34CE2B1E80BB18007CF4F2 /* User.swift in Sources */,
+				FF34CE031E80B960007CF4F2 /* DashboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF34CE0B1E80B962007CF4F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF34CE0C1E80B962007CF4F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF34CE0F1E80B962007CF4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF34CE101E80B962007CF4F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF34CE121E80B962007CF4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217F35B10A0FBB9E53C8BCEC /* Pods-PicassoHouse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FJG2DUNYBN;
+				INFOPLIST_FILE = PicassoHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.coderup.PicassoHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF34CE131E80B962007CF4F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C4042E0E736828F73E86DE /* Pods-PicassoHouse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FJG2DUNYBN;
+				INFOPLIST_FILE = PicassoHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.coderup.PicassoHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF34CDF81E80B959007CF4F2 /* Build configuration list for PBXProject "PicassoHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF34CE0F1E80B962007CF4F2 /* Debug */,
+				FF34CE101E80B962007CF4F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF34CE111E80B962007CF4F2 /* Build configuration list for PBXNativeTarget "PicassoHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF34CE121E80B962007CF4F2 /* Debug */,
+				FF34CE131E80B962007CF4F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF34CDF51E80B959007CF4F2 /* Project object */;
+}
