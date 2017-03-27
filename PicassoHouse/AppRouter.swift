@@ -38,14 +38,16 @@ final class AppRouter {
     lazy var dashboardTabController : UIViewController = {
         let vc = DashboardViewController()
         let nav = PHNavigationController(rootViewController: vc)
-        nav.tabBarItem = UITabBarItem(title: "Dashboard", image: #imageLiteral(resourceName: "first"), tag: 1)
+        nav.tabBarItem = UITabBarItem(title: "Dashboard", image: #imageLiteral(resourceName: "ic_menu"), tag: 1)
         return nav
     }()
     
     lazy var lightsTabController : UIViewController = {
-        let vc = LightsViewController()
+        let vm = LightsViewModel(delegate: nil)
+        let vc = LightsTableViewController(viewModel: vm)
         let nav = PHNavigationController(rootViewController: vc)
-        nav.tabBarItem = UITabBarItem(title: "Luzes", image: #imageLiteral(resourceName: "first"), tag: 1)
+        nav.tabBarItem = UITabBarItem(title: "Luzes", image: #imageLiteral(resourceName: "ic_light"), selectedImage: #imageLiteral(resourceName: "ic_light_filled"))
+        nav.tabBarItem.tag = 2
         return nav
     }()
     
@@ -53,7 +55,8 @@ final class AppRouter {
     lazy var infoTabController : UIViewController = {
         let vc = InfoViewController()
         let nav = PHNavigationController(rootViewController: vc)
-        nav.tabBarItem = UITabBarItem(title: "Infos", image: #imageLiteral(resourceName: "first"), tag: 1)
+        nav.tabBarItem = UITabBarItem(title: "Info", image: #imageLiteral(resourceName: "ic_chart"), selectedImage: #imageLiteral(resourceName: "ic_chart_filled"))
+        nav.tabBarItem.tag = 3
         return nav
     }()
     
@@ -61,7 +64,8 @@ final class AppRouter {
     lazy var profileTabController : UIViewController = {
         let vc = ProfileViewController()
         let nav = PHNavigationController(rootViewController: vc)
-        nav.tabBarItem = UITabBarItem(title: "Perfil", image: #imageLiteral(resourceName: "second"), tag: 1)
+        nav.tabBarItem = UITabBarItem(title: "Perfil", image: #imageLiteral(resourceName: "ic_profile"), selectedImage: #imageLiteral(resourceName: "ic_profile_filled"))
+        nav.tabBarItem.tag = 4
         return nav
     }()
     

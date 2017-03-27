@@ -24,7 +24,6 @@ class PHNavigationController : UINavigationController {
         navigationBar.barTintColor = Styles.navigationBarTintColor
         navigationBar.tintColor = .white
         navigationBar.barStyle = .black
-        navigationBar.isTranslucent = false
     }
     
 }

@@ -15,7 +15,6 @@ class PHTabBarController : UITabBarController {
         
         tabBar.tintColor = Styles.tintColor
         tabBar.barTintColor = Styles.navigationBarTintColor
-        tabBar.isTranslucent = false
     }
     
 }

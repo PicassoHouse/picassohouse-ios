@@ -3,13 +3,12 @@
 
 #Default Pods
 def common_pods
-    pod 'R.swift',      '~> 3.2.0'
-
+    
     #Rx Pods
-    pod 'RxSwift',      '~> 3.0'
-    pod 'RxCocoa',      '~> 3.0'
+    pod 'RxSwift',      '~> 3.3.1'
+    pod 'RxCocoa',      '~> 3.3.1'
     pod 'NSObject+Rx'
-
+     
     #Networking
     pod 'Moya'
     pod 'Moya/RxSwift'

@@ -11,9 +11,6 @@ PODS:
     - RxSwift (~> 3.0)
   - NSObject+Rx (2.0.0):
     - RxSwift
-  - R.swift (3.2.0):
-    - R.swift.Library (~> 3.0.2)
-  - R.swift.Library (3.0.2)
   - Result (3.2.1)
   - RxCocoa (3.3.1):
     - RxSwift (~> 3.3)
@@ -26,9 +23,8 @@ DEPENDENCIES:
   - Moya
   - Moya/RxSwift
   - NSObject+Rx
-  - R.swift (~> 3.2.0)
-  - RxCocoa (~> 3.0)
-  - RxSwift (~> 3.0)
+  - RxCocoa (~> 3.3.1)
+  - RxSwift (~> 3.3.1)
   - SnapKit (~> 3.2.0)
   - SwiftyJSON
 
@@ -37,14 +33,12 @@ SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   Moya: d3721622e3cc0cc2f038d69a258686f0b66e7252
   NSObject+Rx: 2a9cd801d9c847e6d2486cbad8d7701b67834e70
-  R.swift: 207a372a2b5977caef440c696a368009460641d1
-  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
   Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
   RxCocoa: 7dcb7a1860fc9cd0e23dae67ab105fc2916670b6
   RxSwift: 8fc9f2de6275a9101d518444e00bf32f1a42caac
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 5edcb91683f6de2530d00a03fdf92136736f6b44
+PODFILE CHECKSUM: 37362d3932ee29bee5acd212a9b8e4a8eb7db70e
 
 COCOAPODS: 1.2.0.beta.3
