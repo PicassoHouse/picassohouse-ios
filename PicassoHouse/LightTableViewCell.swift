@@ -46,6 +46,7 @@ class LightTableViewCell: UITableViewCell {
     private func setupUI() {
         backgroundColor = #colorLiteral(red: 0.06666666667, green: 0.06666666667, blue: 0.06666666667, alpha: 1)
         textLabel?.textColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+        switchButton.onTintColor = Styles.tintColor
     }
     
     private func bindViews() {
