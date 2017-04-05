@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B209783BA2BC5FA17CBDC42 /* Pods_PicassoHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4F7A9BBB53C8164EE43DC0 /* Pods_PicassoHouse.framework */; };
 		FF1B96401E8873F400944468 /* LightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B963F1E8873F400944468 /* LightsViewModel.swift */; };
 		FF1B96421E88747C00944468 /* RoomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B96411E88747C00944468 /* RoomType.swift */; };
 		FF1B96441E8875DE00944468 /* LightItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B96431E8875DE00944468 /* LightItemViewModel.swift */; };
@@ -30,12 +29,72 @@
 		FF34CE391E80D6BA007CF4F2 /* LightsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE381E80D6BA007CF4F2 /* LightsTableViewController.swift */; };
 		FF34CE3C1E80D73D007CF4F2 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE3B1E80D73D007CF4F2 /* InfoViewController.swift */; };
 		FF34CE3F1E80D7E8007CF4F2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE3E1E80D7E8007CF4F2 /* DashboardViewController.swift */; };
+		FFA8267A1E94964B00AFE2AD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826701E94964B00AFE2AD /* Alamofire.framework */; };
+		FFA8267B1E94964B00AFE2AD /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826701E94964B00AFE2AD /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA8267C1E94964B00AFE2AD /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826711E94964B00AFE2AD /* Moya.framework */; };
+		FFA8267D1E94964B00AFE2AD /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826711E94964B00AFE2AD /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA8267E1E94964B00AFE2AD /* NSObject_Rx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826721E94964B00AFE2AD /* NSObject_Rx.framework */; };
+		FFA8267F1E94964B00AFE2AD /* NSObject_Rx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826721E94964B00AFE2AD /* NSObject_Rx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA826801E94964B00AFE2AD /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826731E94964B00AFE2AD /* Result.framework */; };
+		FFA826811E94964B00AFE2AD /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826731E94964B00AFE2AD /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA826841E94964C00AFE2AD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826751E94964B00AFE2AD /* RxCocoa.framework */; };
+		FFA826851E94964C00AFE2AD /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826751E94964B00AFE2AD /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA826861E94964C00AFE2AD /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826761E94964B00AFE2AD /* RxMoya.framework */; };
+		FFA826871E94964C00AFE2AD /* RxMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826761E94964B00AFE2AD /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA826881E94964C00AFE2AD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826771E94964B00AFE2AD /* RxSwift.framework */; };
+		FFA826891E94964C00AFE2AD /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826771E94964B00AFE2AD /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA8268C1E94964C00AFE2AD /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826791E94964B00AFE2AD /* SwiftyJSON.framework */; };
+		FFA8268D1E94964C00AFE2AD /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826791E94964B00AFE2AD /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA8268F1E94968600AFE2AD /* Alamofire.framework in carthage */ = {isa = PBXBuildFile; fileRef = FFA826701E94964B00AFE2AD /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA826901E94968600AFE2AD /* Moya.framework in carthage */ = {isa = PBXBuildFile; fileRef = FFA826711E94964B00AFE2AD /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA826911E94968600AFE2AD /* NSObject_Rx.framework in carthage */ = {isa = PBXBuildFile; fileRef = FFA826721E94964B00AFE2AD /* NSObject_Rx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA826921E94968600AFE2AD /* Result.framework in carthage */ = {isa = PBXBuildFile; fileRef = FFA826731E94964B00AFE2AD /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA826941E94968600AFE2AD /* RxCocoa.framework in carthage */ = {isa = PBXBuildFile; fileRef = FFA826751E94964B00AFE2AD /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA826951E94968600AFE2AD /* RxMoya.framework in carthage */ = {isa = PBXBuildFile; fileRef = FFA826761E94964B00AFE2AD /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA826961E94968600AFE2AD /* RxSwift.framework in carthage */ = {isa = PBXBuildFile; fileRef = FFA826771E94964B00AFE2AD /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA826981E94968600AFE2AD /* SwiftyJSON.framework in carthage */ = {isa = PBXBuildFile; fileRef = FFA826791E94964B00AFE2AD /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FFA8263A1E948FF000AFE2AD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FFA826851E94964C00AFE2AD /* RxCocoa.framework in Embed Frameworks */,
+				FFA8267D1E94964B00AFE2AD /* Moya.framework in Embed Frameworks */,
+				FFA8268D1E94964C00AFE2AD /* SwiftyJSON.framework in Embed Frameworks */,
+				FFA8267F1E94964B00AFE2AD /* NSObject_Rx.framework in Embed Frameworks */,
+				FFA826891E94964C00AFE2AD /* RxSwift.framework in Embed Frameworks */,
+				FFA8267B1E94964B00AFE2AD /* Alamofire.framework in Embed Frameworks */,
+				FFA826871E94964C00AFE2AD /* RxMoya.framework in Embed Frameworks */,
+				FFA826811E94964B00AFE2AD /* Result.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA8268E1E94966500AFE2AD /* carthage */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FFA8268F1E94968600AFE2AD /* Alamofire.framework in carthage */,
+				FFA826901E94968600AFE2AD /* Moya.framework in carthage */,
+				FFA826911E94968600AFE2AD /* NSObject_Rx.framework in carthage */,
+				FFA826921E94968600AFE2AD /* Result.framework in carthage */,
+				FFA826941E94968600AFE2AD /* RxCocoa.framework in carthage */,
+				FFA826951E94968600AFE2AD /* RxMoya.framework in carthage */,
+				FFA826961E94968600AFE2AD /* RxSwift.framework in carthage */,
+				FFA826981E94968600AFE2AD /* SwiftyJSON.framework in carthage */,
+			);
+			name = carthage;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		217F35B10A0FBB9E53C8BCEC /* Pods-PicassoHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicassoHouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicassoHouse/Pods-PicassoHouse.debug.xcconfig"; sourceTree = "<group>"; };
-		AF4F7A9BBB53C8164EE43DC0 /* Pods_PicassoHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicassoHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4C4042E0E736828F73E86DE /* Pods-PicassoHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicassoHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicassoHouse/Pods-PicassoHouse.release.xcconfig"; sourceTree = "<group>"; };
 		FF1B963F1E8873F400944468 /* LightsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsViewModel.swift; sourceTree = "<group>"; };
 		FF1B96411E88747C00944468 /* RoomType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomType.swift; sourceTree = "<group>"; };
 		FF1B96431E8875DE00944468 /* LightItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightItemViewModel.swift; sourceTree = "<group>"; };
@@ -60,6 +119,16 @@
 		FF34CE381E80D6BA007CF4F2 /* LightsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsTableViewController.swift; sourceTree = "<group>"; };
 		FF34CE3B1E80D73D007CF4F2 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		FF34CE3E1E80D7E8007CF4F2 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		FFA826701E94964B00AFE2AD /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		FFA826711E94964B00AFE2AD /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		FFA826721E94964B00AFE2AD /* NSObject_Rx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSObject_Rx.framework; path = Carthage/Build/iOS/NSObject_Rx.framework; sourceTree = "<group>"; };
+		FFA826731E94964B00AFE2AD /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		FFA826741E94964B00AFE2AD /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		FFA826751E94964B00AFE2AD /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		FFA826761E94964B00AFE2AD /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		FFA826771E94964B00AFE2AD /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		FFA826781E94964B00AFE2AD /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		FFA826791E94964B00AFE2AD /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +136,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B209783BA2BC5FA17CBDC42 /* Pods_PicassoHouse.framework in Frameworks */,
+				FFA826841E94964C00AFE2AD /* RxCocoa.framework in Frameworks */,
+				FFA8267C1E94964B00AFE2AD /* Moya.framework in Frameworks */,
+				FFA8268C1E94964C00AFE2AD /* SwiftyJSON.framework in Frameworks */,
+				FFA8267E1E94964B00AFE2AD /* NSObject_Rx.framework in Frameworks */,
+				FFA826881E94964C00AFE2AD /* RxSwift.framework in Frameworks */,
+				FFA8267A1E94964B00AFE2AD /* Alamofire.framework in Frameworks */,
+				FFA826861E94964C00AFE2AD /* RxMoya.framework in Frameworks */,
+				FFA826801E94964B00AFE2AD /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,18 +153,8 @@
 		156DA51E30333945F83264BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF4F7A9BBB53C8164EE43DC0 /* Pods_PicassoHouse.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A67341F7A7000708128A794A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				217F35B10A0FBB9E53C8BCEC /* Pods-PicassoHouse.debug.xcconfig */,
-				C4C4042E0E736828F73E86DE /* Pods-PicassoHouse.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		FF1B96451E8877DC00944468 /* Enums */ = {
@@ -102,9 +168,18 @@
 		FF34CDF41E80B959007CF4F2 = {
 			isa = PBXGroup;
 			children = (
+				FFA826701E94964B00AFE2AD /* Alamofire.framework */,
+				FFA826711E94964B00AFE2AD /* Moya.framework */,
+				FFA826721E94964B00AFE2AD /* NSObject_Rx.framework */,
+				FFA826731E94964B00AFE2AD /* Result.framework */,
+				FFA826741E94964B00AFE2AD /* RxBlocking.framework */,
+				FFA826751E94964B00AFE2AD /* RxCocoa.framework */,
+				FFA826761E94964B00AFE2AD /* RxMoya.framework */,
+				FFA826771E94964B00AFE2AD /* RxSwift.framework */,
+				FFA826781E94964B00AFE2AD /* RxTest.framework */,
+				FFA826791E94964B00AFE2AD /* SwiftyJSON.framework */,
 				FF34CDFF1E80B95F007CF4F2 /* PicassoHouse */,
 				FF34CDFE1E80B95F007CF4F2 /* Products */,
-				A67341F7A7000708128A794A /* Pods */,
 				156DA51E30333945F83264BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -258,13 +333,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF34CE111E80B962007CF4F2 /* Build configuration list for PBXNativeTarget "PicassoHouse" */;
 			buildPhases = (
-				0DDB8CC7EB314644F401D97B /* [CP] Check Pods Manifest.lock */,
 				FF34CDF91E80B959007CF4F2 /* Sources */,
 				FF34CE401E80D93D007CF4F2 /* Swiftlint */,
 				FF34CDFA1E80B959007CF4F2 /* Frameworks */,
 				FF34CDFB1E80B959007CF4F2 /* Resources */,
-				6087F0AF24B987D2A82C32D7 /* [CP] Embed Pods Frameworks */,
-				F1E9FCD86BEA335FDE515BC3 /* [CP] Copy Pods Resources */,
+				FFA8263A1E948FF000AFE2AD /* Embed Frameworks */,
+				FFA8268E1E94966500AFE2AD /* carthage */,
 			);
 			buildRules = (
 			);
@@ -323,51 +397,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DDB8CC7EB314644F401D97B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6087F0AF24B987D2A82C32D7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicassoHouse/Pods-PicassoHouse-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F1E9FCD86BEA335FDE515BC3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicassoHouse/Pods-PicassoHouse-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FF34CE401E80D93D007CF4F2 /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,11 +548,15 @@
 		};
 		FF34CE121E80B962007CF4F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 217F35B10A0FBB9E53C8BCEC /* Pods-PicassoHouse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FJG2DUNYBN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PicassoHouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.coderup.PicassoHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -533,11 +566,15 @@
 		};
 		FF34CE131E80B962007CF4F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4C4042E0E736828F73E86DE /* Pods-PicassoHouse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FJG2DUNYBN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PicassoHouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.coderup.PicassoHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";

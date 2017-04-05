@@ -1,0 +1,4 @@
+github "ReactiveX/RxSwift" ~> 3.0
+github "RxSwiftCommunity/NSObject-Rx" ~> 2.0.0
+github "Moya/Moya"
+github "SwiftyJSON/SwiftyJSON"
