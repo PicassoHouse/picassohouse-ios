@@ -45,6 +45,7 @@
 		FFA826A81E949AEF00AFE2AD /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826771E94964B00AFE2AD /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FFA826AB1E949AEF00AFE2AD /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826791E94964B00AFE2AD /* SwiftyJSON.framework */; };
 		FFA826AC1E949AEF00AFE2AD /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826791E94964B00AFE2AD /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFF4A9AE1EA1F7E500280E7A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF4A9AD1EA1F7E500280E7A /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +104,7 @@
 		FFA826771E94964B00AFE2AD /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		FFA826781E94964B00AFE2AD /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		FFA826791E94964B00AFE2AD /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		FFF4A9AD1EA1F7E500280E7A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 		FF34CE161E80B9C5007CF4F2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FFF4A9AD1EA1F7E500280E7A /* Media.xcassets */,
 				FF34CE091E80B962007CF4F2 /* Assets.xcassets */,
 				FF34CE0B1E80B962007CF4F2 /* LaunchScreen.storyboard */,
 				FF34CE0E1E80B962007CF4F2 /* Info.plist */,
@@ -363,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF34CE0D1E80B962007CF4F2 /* LaunchScreen.storyboard in Resources */,
+				FFF4A9AE1EA1F7E500280E7A /* Media.xcassets in Resources */,
 				FF34CE0A1E80B962007CF4F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
