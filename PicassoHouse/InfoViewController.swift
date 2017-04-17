@@ -7,10 +7,22 @@
 //
 
 import UIKit
-
+import Charts
 
 class InfoViewController: UIViewController {
     
+    fileprivate var viewModel : LightsInfoViewModel!
+    
+    init(viewModel: LightsInfoViewModel) {
+        self.viewModel = viewModel
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+ 
+    lazy var infoView = InfoView()
     
 }
 
@@ -22,27 +34,22 @@ extension InfoViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupViewConfiguration()
-        
-        title = "Info"
+        setup()
+    }
+    
+    override func loadView() {
+        view = infoView
     }
     
 }
 
-// MARK - ViewConfiguration
+
+// MARK - Setup
 // ---------------------------------
-extension InfoViewController : ViewConfiguration {
+extension InfoViewController {
     
-    func buildViewHierarchy() {
-        
-    }
-    
-    func setupConstraints() {
-        
-    }
-    
-    func configureViews() {
-        self.view.backgroundColor = Styles.viewControllerBackgroundColor
+    fileprivate func setup() {
+        title = "Info"
     }
     
 }

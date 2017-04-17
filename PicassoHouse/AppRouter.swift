@@ -53,7 +53,7 @@ final class AppRouter {
     
     
     lazy var infoTabController : UIViewController = {
-        let vc = InfoViewController()
+        let vc = InfoViewController(viewModel: LightsInfoViewModel())
         let nav = PHNavigationController(rootViewController: vc)
         nav.tabBarItem = UITabBarItem(title: "Info", image: #imageLiteral(resourceName: "ic_chart"), selectedImage: #imageLiteral(resourceName: "ic_chart_filled"))
         nav.tabBarItem.tag = 3
