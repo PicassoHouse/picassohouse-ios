@@ -162,15 +162,19 @@
 				FF1B96411E88747C00944468 /* RoomType.swift */,
 			);
 			name = Enums;
+			path = Enums;
 			sourceTree = "<group>";
 		};
 		FF34CDF41E80B959007CF4F2 = {
 			isa = PBXGroup;
 			children = (
+				156DA51E30333945F83264BC /* Frameworks */,
+				FF34CDFF1E80B95F007CF4F2 /* PicassoHouse */,
+				FF34CDFE1E80B95F007CF4F2 /* Products */,
+				FFA826701E94964B00AFE2AD /* Alamofire.framework */,
 				FF08FF381EA46D1600BCAE68 /* Charts.framework */,
 				FF08FF331EA4600E00BCAE68 /* Crashlytics.framework */,
 				FF08FF341EA4600E00BCAE68 /* Fabric.framework */,
-				FFA826701E94964B00AFE2AD /* Alamofire.framework */,
 				FFA826711E94964B00AFE2AD /* Moya.framework */,
 				FFA826721E94964B00AFE2AD /* NSObject_Rx.framework */,
 				FFA826731E94964B00AFE2AD /* Result.framework */,
@@ -180,9 +184,6 @@
 				FFA826771E94964B00AFE2AD /* RxSwift.framework */,
 				FFA826781E94964B00AFE2AD /* RxTest.framework */,
 				FFA826791E94964B00AFE2AD /* SwiftyJSON.framework */,
-				FF34CDFF1E80B95F007CF4F2 /* PicassoHouse */,
-				FF34CDFE1E80B95F007CF4F2 /* Products */,
-				156DA51E30333945F83264BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,9 +198,9 @@
 		FF34CDFF1E80B95F007CF4F2 /* PicassoHouse */ = {
 			isa = PBXGroup;
 			children = (
-				FF34CE161E80B9C5007CF4F2 /* Resources */,
-				FF34CE151E80B9B8007CF4F2 /* Core */,
 				FF34CE141E80B981007CF4F2 /* App */,
+				FF34CE151E80B9B8007CF4F2 /* Core */,
+				FF34CE161E80B9C5007CF4F2 /* Resources */,
 				FF34CE001E80B960007CF4F2 /* AppDelegate.swift */,
 				FF34CE2C1E80C18D007CF4F2 /* AppRouter.swift */,
 			);
@@ -217,29 +218,32 @@
 				FF34CE351E80D535007CF4F2 /* PHTabBarController.swift */,
 			);
 			name = App;
+			path = App;
 			sourceTree = "<group>";
 		};
 		FF34CE151E80B9B8007CF4F2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				FF34CE1A1E80B9EB007CF4F2 /* Protocols */,
-				FF34CE191E80B9E4007CF4F2 /* Networking */,
-				FF34CE181E80B9DF007CF4F2 /* Models */,
 				FF34CE171E80B9D2007CF4F2 /* Extensions */,
+				FF34CE181E80B9DF007CF4F2 /* Models */,
+				FF34CE191E80B9E4007CF4F2 /* Networking */,
+				FF34CE1A1E80B9EB007CF4F2 /* Protocols */,
 				FF34CE331E80CBA8007CF4F2 /* Styles.swift */,
 			);
 			name = Core;
+			path = Core;
 			sourceTree = "<group>";
 		};
 		FF34CE161E80B9C5007CF4F2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FFF4A9AD1EA1F7E500280E7A /* Media.xcassets */,
 				FF34CE091E80B962007CF4F2 /* Assets.xcassets */,
-				FF34CE0B1E80B962007CF4F2 /* LaunchScreen.storyboard */,
 				FF34CE0E1E80B962007CF4F2 /* Info.plist */,
+				FF34CE0B1E80B962007CF4F2 /* LaunchScreen.storyboard */,
+				FFF4A9AD1EA1F7E500280E7A /* Media.xcassets */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		FF34CE171E80B9D2007CF4F2 /* Extensions */ = {
@@ -250,18 +254,20 @@
 				FF08FF3D1EA4724300BCAE68 /* UIView+Constraints.swift */,
 			);
 			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		FF34CE181E80B9DF007CF4F2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				FF1B96451E8877DC00944468 /* Enums */,
-				FF34CE2A1E80BB18007CF4F2 /* User.swift */,
-				FF1B96481E8878AE00944468 /* Room.swift */,
-				FF3E354F1EADACFE000D3E46 /* LightHistory.swift */,
 				FF3E35511EADADAB000D3E46 /* CurrentMonthLightInfo.swift */,
+				FF3E354F1EADACFE000D3E46 /* LightHistory.swift */,
+				FF1B96481E8878AE00944468 /* Room.swift */,
+				FF34CE2A1E80BB18007CF4F2 /* User.swift */,
 			);
 			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		FF34CE191E80B9E4007CF4F2 /* Networking */ = {
@@ -270,16 +276,18 @@
 				FF08FF301EA448A600BCAE68 /* PHApi.swift */,
 			);
 			name = Networking;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		FF34CE1A1E80B9EB007CF4F2 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				FF34CE1D1E80BA03007CF4F2 /* Views */,
 				FF34CE1C1E80B9FD007CF4F2 /* ViewModels */,
+				FF34CE1D1E80BA03007CF4F2 /* Views */,
 				FF34CE281E80BAF7007CF4F2 /* JSONAble.swift */,
 			);
 			name = Protocols;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		FF34CE1C1E80B9FD007CF4F2 /* ViewModels */ = {
@@ -288,6 +296,7 @@
 				FF34CE221E80BA76007CF4F2 /* ViewModel.swift */,
 			);
 			name = ViewModels;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		FF34CE1D1E80BA03007CF4F2 /* Views */ = {
@@ -296,6 +305,7 @@
 				FF34CE1E1E80BA2E007CF4F2 /* ViewConfiguration.swift */,
 			);
 			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		FF34CE2E1E80C2DF007CF4F2 /* Profile */ = {
@@ -304,27 +314,30 @@
 				FF34CE021E80B960007CF4F2 /* ProfileViewController.swift */,
 			);
 			name = Profile;
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		FF34CE371E80D6A7007CF4F2 /* Lights */ = {
 			isa = PBXGroup;
 			children = (
-				FF34CE381E80D6BA007CF4F2 /* LightsTableViewController.swift */,
-				FF1B963F1E8873F400944468 /* LightsViewModel.swift */,
 				FF1B96431E8875DE00944468 /* LightItemViewModel.swift */,
 				FF1B964A1E887E2500944468 /* LightTableViewCell.swift */,
+				FF34CE381E80D6BA007CF4F2 /* LightsTableViewController.swift */,
+				FF1B963F1E8873F400944468 /* LightsViewModel.swift */,
 			);
 			name = Lights;
+			path = Lights;
 			sourceTree = "<group>";
 		};
 		FF34CE3A1E80D731007CF4F2 /* Infos */ = {
 			isa = PBXGroup;
 			children = (
+				FF08FF3F1EA4833A00BCAE68 /* InfoView.swift */,
 				FF34CE3B1E80D73D007CF4F2 /* InfoViewController.swift */,
 				FF08FF3B1EA46E8700BCAE68 /* LightsInfoViewModel.swift */,
-				FF08FF3F1EA4833A00BCAE68 /* InfoView.swift */,
 			);
 			name = Infos;
+			path = Infos;
 			sourceTree = "<group>";
 		};
 		FF34CE3D1E80D789007CF4F2 /* Dashboard */ = {
@@ -333,6 +346,7 @@
 				FF34CE3E1E80D7E8007CF4F2 /* DashboardViewController.swift */,
 			);
 			name = Dashboard;
+			path = Dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,6 +517,7 @@
 				FF34CE0C1E80B962007CF4F2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -610,7 +625,7 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
-				INFOPLIST_FILE = PicassoHouse/Info.plist;
+				INFOPLIST_FILE = PicassoHouse/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.coderup.PicassoHouse;
@@ -632,7 +647,7 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_OPTIMIZATION_LEVEL = s;
-				INFOPLIST_FILE = PicassoHouse/Info.plist;
+				INFOPLIST_FILE = PicassoHouse/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
