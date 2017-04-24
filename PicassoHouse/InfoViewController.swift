@@ -35,6 +35,7 @@ extension InfoViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
+        bindViews()
     }
     
     override func loadView() {
@@ -49,7 +50,29 @@ extension InfoViewController {
 extension InfoViewController {
     
     fileprivate func setup() {
+        edgesForExtendedLayout = []
         title = "Info"
+    }
+    
+}
+
+
+// MARK: - RxBindings
+// ---------------------------------
+extension InfoViewController {
+    
+    fileprivate func bindViews() {
+        viewModel.timeOff
+            .bindTo(infoView.timeOffLabel.rx.text)
+            .disposed(by: rx_disposeBag)
+        viewModel.timeOn
+            .bindTo(infoView.timeOnLabel.rx.text)
+            .disposed(by: rx_disposeBag)
+        
+        viewModel.lightHistory
+            .bindNext(infoView.setupChartWith)
+            .disposed(by: rx_disposeBag)
+        
     }
     
 }

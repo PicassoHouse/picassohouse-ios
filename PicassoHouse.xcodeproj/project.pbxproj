@@ -37,6 +37,8 @@
 		FF34CE391E80D6BA007CF4F2 /* LightsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE381E80D6BA007CF4F2 /* LightsTableViewController.swift */; };
 		FF34CE3C1E80D73D007CF4F2 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE3B1E80D73D007CF4F2 /* InfoViewController.swift */; };
 		FF34CE3F1E80D7E8007CF4F2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34CE3E1E80D7E8007CF4F2 /* DashboardViewController.swift */; };
+		FF3E35501EADACFE000D3E46 /* LightHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E354F1EADACFE000D3E46 /* LightHistory.swift */; };
+		FF3E35521EADADAB000D3E46 /* CurrentMonthLightInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E35511EADADAB000D3E46 /* CurrentMonthLightInfo.swift */; };
 		FFA826991E949AEF00AFE2AD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826701E94964B00AFE2AD /* Alamofire.framework */; };
 		FFA8269A1E949AEF00AFE2AD /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826701E94964B00AFE2AD /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FFA8269B1E949AEF00AFE2AD /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA826711E94964B00AFE2AD /* Moya.framework */; };
@@ -110,6 +112,8 @@
 		FF34CE381E80D6BA007CF4F2 /* LightsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsTableViewController.swift; sourceTree = "<group>"; };
 		FF34CE3B1E80D73D007CF4F2 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		FF34CE3E1E80D7E8007CF4F2 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		FF3E354F1EADACFE000D3E46 /* LightHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightHistory.swift; sourceTree = "<group>"; };
+		FF3E35511EADADAB000D3E46 /* CurrentMonthLightInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentMonthLightInfo.swift; sourceTree = "<group>"; };
 		FFA826701E94964B00AFE2AD /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		FFA826711E94964B00AFE2AD /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
 		FFA826721E94964B00AFE2AD /* NSObject_Rx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSObject_Rx.framework; path = Carthage/Build/iOS/NSObject_Rx.framework; sourceTree = "<group>"; };
@@ -254,6 +258,8 @@
 				FF1B96451E8877DC00944468 /* Enums */,
 				FF34CE2A1E80BB18007CF4F2 /* User.swift */,
 				FF1B96481E8878AE00944468 /* Room.swift */,
+				FF3E354F1EADACFE000D3E46 /* LightHistory.swift */,
+				FF3E35511EADADAB000D3E46 /* CurrentMonthLightInfo.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -472,6 +478,7 @@
 				FF08FF311EA448A600BCAE68 /* PHApi.swift in Sources */,
 				FF34CE1F1E80BA2E007CF4F2 /* ViewConfiguration.swift in Sources */,
 				FF1B964B1E887E2500944468 /* LightTableViewCell.swift in Sources */,
+				FF3E35521EADADAB000D3E46 /* CurrentMonthLightInfo.swift in Sources */,
 				FF34CE011E80B960007CF4F2 /* AppDelegate.swift in Sources */,
 				FF34CE341E80CBA8007CF4F2 /* Styles.swift in Sources */,
 				FF34CE2D1E80C18D007CF4F2 /* AppRouter.swift in Sources */,
@@ -479,6 +486,7 @@
 				FF34CE3C1E80D73D007CF4F2 /* InfoViewController.swift in Sources */,
 				FF34CE231E80BA76007CF4F2 /* ViewModel.swift in Sources */,
 				FF34CE2B1E80BB18007CF4F2 /* User.swift in Sources */,
+				FF3E35501EADACFE000D3E46 /* LightHistory.swift in Sources */,
 				FF08FF3E1EA4724300BCAE68 /* UIView+Constraints.swift in Sources */,
 				FF08FF3C1EA46E8700BCAE68 /* LightsInfoViewModel.swift in Sources */,
 				FF34CE031E80B960007CF4F2 /* ProfileViewController.swift in Sources */,
