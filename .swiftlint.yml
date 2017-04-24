@@ -8,7 +8,6 @@ disabled_rules:
   - valid_docs 
 
 opt_in_rules:
-  - variable_name
   - empty_count
   - force_cast
   - force_try
